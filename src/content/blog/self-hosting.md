@@ -5,8 +5,6 @@ pubDate: 2026-09-15
 updatedDate: 2026-09-15 # optional
 tags: ["devops", "Lifestyle", "tech"]
 draft: false # drafts are visible in dev, dropped from builds
-heroImage: ./cover.jpg # optional, optimised through astro:assets
-heroImageAlt: "…"
 ---
 
 ## Why Self Host?
