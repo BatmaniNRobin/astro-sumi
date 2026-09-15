@@ -38,8 +38,8 @@ export const SITE = {
 } as const;
 
 export const AUTHOR = {
-  name: "mani malik",
-  url: "https://github.com/batmaninrobin",
+  name: "Mohammad Malik",
+  url: "https://linkedin.com/mani-malik",
   /** One or two sentences. Shown on /about and in structured data. */
   bio: "MLOps and DevOps Engineer working on improving myself, and the interface between me and life.",
 } as const;
@@ -52,6 +52,8 @@ export const NAV: NavItem[] = [
 
 export const SOCIAL: SocialLink[] = [
   { label: "LinkedIn", href: "https://linkedin.com/in/mani-malik" },
+  { label: "GitHub", href: "https://github.com/batmaninrobin" },
+  { label: "X", href: "https://x.com/batmani_" },
 ];
 
 export const BLOG = {
