@@ -18,8 +18,10 @@ const colophon = [
 
 <BaseLayout title="About" description={AUTHOR.bio}>
   <div class="wrap">
-    <PageHeader eyebrow="Colophon" title="About" lede={AUTHOR.bio} />
-    <Image src={maniImage} alt="Image of Mani Malik" />
+    <div class="about-header">
+      <PageHeader eyebrow="Colophon" title="About" lede={AUTHOR.bio} />
+      <Image src={maniImage} alt="Image of Mani Malik" width={150} height={150} class="about-avatar"/>
+    </div>
 
     <div class="about">
       <div class="prose about__body">
@@ -87,6 +89,19 @@ const colophon = [
 </BaseLayout>
 
 <style>
+  .about-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .about-avatar {
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
   .about {
     display: grid;
     grid-template-columns: minmax(0, var(--width-prose)) 13rem;
