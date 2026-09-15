@@ -5,6 +5,9 @@ import PageHeader from "../components/PageHeader.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { AUTHOR, SITE, SOCIAL } from "../config";
 
+import maniImage from "../assets/images/mani-by-tony.jpg";
+import Image from "astro/components/Image.astro";
+
 const colophon = [
   { term: "Framework", value: "Astro 7, static output" },
   { term: "Type", value: "Source Serif 4 · JetBrains Mono" },
@@ -16,10 +19,10 @@ const colophon = [
 <BaseLayout title="About" description={AUTHOR.bio}>
   <div class="wrap">
     <PageHeader eyebrow="Colophon" title="About" lede={AUTHOR.bio} />
+    <Image src={maniImage} alt="Image of Mani Malik" />
 
     <div class="about">
       <div class="prose about__body">
-        <img src="src/assets/images/mani-by-tony.jpg" alt="Image of Mani Malik" />
         <p>
           Welcome to {SITE.title}!
         </p>
