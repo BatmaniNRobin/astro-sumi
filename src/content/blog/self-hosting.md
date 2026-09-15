@@ -3,7 +3,7 @@ title: "My Self-Hosting Setup"
 description: "A brief overview of my homelab and self-hosting setup."
 pubDate: 2026-09-15
 updatedDate: 2026-09-15 # optional
-tags: ["devops", "Lifestyle", "tech"]
+tags: ["devops", "Lifestyle", "tech", "career", "computer science", "projects"]
 draft: false # drafts are visible in dev, dropped from builds
 ---
 
