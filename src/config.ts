@@ -26,7 +26,7 @@ export const SITE = {
    * Set to an empty string to drop the Japanese accents entirely.
    */
   titleMark: "墨",
-  tagline: "A blog by Mani Malik",
+  tagline: "A Blog by Mani Malik",
   description:
     "A blog by Mani Malik. Gives the pacing of a printed page. Stay a while.",
   /** BCP 47 language tag, written to <html lang>. */
@@ -54,6 +54,7 @@ export const SOCIAL: SocialLink[] = [
   { label: "LinkedIn", href: "https://linkedin.com/in/mani-malik" },
   { label: "GitHub", href: "https://github.com/batmaninrobin" },
   { label: "X", href: "https://x.com/batmani_" },
+  { label: "Resume", href: "https://resume.mani-malik.xyz" },
 ];
 
 export const BLOG = {
