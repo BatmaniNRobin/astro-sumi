@@ -2,12 +2,12 @@
 title: "My Self-Hosting Setup"
 description: "A brief overview of my homelab and self-hosting setup."
 pubDate: 2026-09-15
-updatedDate: 2026-09-15 # optional
+# updatedDate: 2026-09-15 # optional
 tags: ["devops", "Lifestyle", "tech", "career", "computer science", "projects"]
 draft: false # drafts are visible in dev, dropped from builds
 ---
 
-## Why Self Host?
+# Why Self Host?
 
 Self hosting and Open-Source Software (OSS) allows you the benefit of controlling your privacy and maintaining your own data. 
 
@@ -33,27 +33,27 @@ As it stands currently I am using my old gaming laptop, using Proxmox OS, as bot
 
 ### Services
 
-Immich - for backing up my photos and maintaining full availability on my phone
+[Immich](immich.app) - for backing up my photos and maintaining full availability on my phone
 
-Jellyfin - to host my media, movies, tv shows, music
+[Jellyfin](https://jellyfin.org/) - to host my media, movies, tv shows, music
 
-Caddy - acts as my reverse proxy, assigning domain names and generating Let’s Encrypt certificates
+[Caddy](https://caddyserver.com/) - acts as my reverse proxy, assigning domain names and generating Let’s Encrypt certificates
 
-Proxmox Backup Server - backup of all my proxmox LXC containers
+[Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview)- backup of all my proxmox LXC containers
 
-vaultwarden - self-hosted bitwarden password manager. benefit of self-hosting this vs their free-tier cloud version is getting to use TOTP and authenticator all built in
+[vaultwarden](https://www.vaultwarden.net/) - self-hosted bitwarden password manager. benefit of self-hosting this vs their free-tier cloud version is getting to use TOTP and authenticator all built in
 
-your-spotify - i LOVE my own data and listen to a ton of music, only right to cross these interests
+[your-spotify](https://github.com/Yooooomi/your_spotify) - i LOVE my own data and listen to a ton of music, only right to cross these interests
 
-nextcloud - after using this for a bit not sure if i’ll keep it but it was meant to replace google calendar for me
+[nextcloud](https://nextcloud.com/) - after using this for a bit not sure if i’ll keep it but it was meant to replace google calendar for me
 
-uptime kuma - for alerts and service uptime monitoring
+[uptime kuma](https://uptimekuma.co/) - for alerts and service uptime monitoring
 
-homepage - browser homepage to all my services with widgets for one dashboard metrics
+[homepage](https://gethomepage.dev/) - browser homepage to all my services with widgets for one dashboard metrics
 
-homeassistant - for smart home automations - mainly zigbee devices for me currently
+[homeassistant](https://www.home-assistant.io/) - for smart home automations - mainly zigbee devices for me currently
 
-pihole - DNS sinkhole/ad-blocker
+[pihole](https://pi-hole.net/) - DNS sinkhole/ad-blocker
 
 gaming / minecraft servers via docker - For hosting my friends and I’s game servers for maximum resources and always-on availability
 
@@ -63,12 +63,12 @@ Currently I’m leveraging Tailscale from trusted devices to access all of these
 
 ### Future Changes
 
-- bezelle - docker stats
+- [beszle](https://www.beszel.dev/guide/getting-started) - docker stats
 - more alerts - prometheus, grafana
 - homeassistant automations
 - gaming servers
 - samba - fileshare system
-- portainer - management via web ui
+- [portainer](https://www.portainer.io/) - management via web ui
 - self-hosted LLM - for privacy, unlimited tokens, and no commercial cooling / eco damage. uses existing home cooling system
 
 ### Future Improvements

@@ -2,7 +2,7 @@
 title: "MLOps Interview Prep Guide"
 description: "Interview Prep for a Mid-level DevOps / Machine Learning Operations Engineer (MLOps)"
 pubDate: 2026-05-12
-updatedDate: 2026-05-12 # optional
+# updatedDate: 2026-05-12 # optional
 tags: ["mlops", "tech", "leetcode", "computer science", "devops", "career"]
 draft: false # drafts are visible in dev, dropped from builds
 ---
@@ -24,7 +24,8 @@ https://www.piratekingdom.com/leetcode/cheat-sheet
 
 2. The goto for learning how to even think about algorithms again, the goat, NeetCode. Neetcode has both free and paid options but offers courses, youtube video breakdowns of HUNDREDS of questions and both their greedy and optimal solutions alongside their Big (O) breakdown for space and time. All in all just one of the absolute best resources. 
 
-https://neetcode.io/roadmap
+<iframe src="https://neetcode.io/roadmap" width="100%" height="400" title="Neetcode roadmap" frameborder="0" ></iframe>
+
 
 ### Cheat Sheet
 

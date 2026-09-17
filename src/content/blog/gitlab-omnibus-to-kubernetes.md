@@ -15,7 +15,7 @@ This guide is meant to serve as a work along article. Following these steps, min
 
 *NOTE:* In order to follow along with this guide, you must already have an understanding of Kubernetes, helm charts, as well as your current, in-place omnibus Gitlab installation environment. It also assumes you have a working Kubernetes cluster with persistent volumes setup, in this guide’s case using NFS.
 
-# Getting Started
+## Getting Started
 
 In this tutorial, we’ll be migrating from a currently existing on-premise Linux package-based GitLab installation to a helm chart deployment of GitLab on Kubernetes. As mentioned, we’ll need an already existing Kubernetes cluster with persistent volumes, with added bonuses such as, an ingress controller, Cert-Manager, and logging and metrics tools such as OpenTelemetry, Prometheus, and Grafana.
 
@@ -42,7 +42,7 @@ The migration can be broken down into a few high-level steps, all of which can b
 4. Restart all pods to make sure changes are applied
 5. Visit the Helm-based deployment and confirm projects, groups, users, issues etc. that existed in the package-based installation are restored. Also, verify if the uploaded files (avatars, files uploaded to issues, etc.) are loaded fine.
 
-# Walkthrough
+## Walkthrough
 
 This is a prerequisite and a necessary step in proceeding, so we’ll include this.
 

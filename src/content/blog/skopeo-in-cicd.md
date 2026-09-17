@@ -2,7 +2,7 @@
 title: "Skopeo in CI/CD"
 description: "Using Docker Alternative Skopeo"
 pubDate: 2026-04-26
-updatedDate: 2026-04-26 # optional
+# updatedDate: 2026-04-26 # optional
 tags: ["docker", "kubernetes", "podman", "tech", "skopeo", "cicd", "pipelines", "devops", "cosign", "gitlab", "github"]
 draft: false # drafts are visible in dev, dropped from builds
 ---
