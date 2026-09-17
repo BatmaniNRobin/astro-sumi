@@ -2,7 +2,7 @@
 title: "Skopeo for Image Verification"
 description: "Using Docker Alternative Skopeo and Cosign for Image Verification"
 pubDate: 2026-05-12
-updatedDate: 2026-05-12 # optional
+# updatedDate: 2026-05-12 # optional
 tags: ["docker", "kubernetes", "podman", "tech", "skopeo", "cicd", "pipelines", "devops", "cosign", "gitlab", "github"]
 draft: false # drafts are visible in dev, dropped from builds
 ---
@@ -19,7 +19,7 @@ Skopeo in CI/CD
 
 A container registry is only as trustworthy as the images it holds. Without signing, there is no cryptographic guarantee that the image you pull matches the one your build pipeline produced. Skopeo handles the transport; Cosign handles the attestation.
 
-## **Tools**
+### Tools
 
 - skopeo — copy and inspect images across registries
 - cosign (Sigstore) — sign, verify, and attach attestations to OCI artifacts
@@ -27,15 +27,15 @@ A container registry is only as trustworthy as the images it holds. Without sign
 
 ## **Installing Cosign**
 
-# Linux (amd64)
+### Linux (amd64)
 
 `curl -sSfL https://github.com/sigstore/cosign/releases/latest/download/cosign-linux-amd64 -o /usr/local/bin/cosign && chmod +x /usr/local/bin/cosign`
 
-# Verify the cosign binary itself (bootstrap trust)
+#### Verify the cosign binary itself (bootstrap trust)
 
 `cosign verify-blob --certificate-identity=... cosign-linux-amd64`
 
-# macOS
+### macOS
 
 `brew install cosign`
 
@@ -173,14 +173,3 @@ rules:
 ---
 
 ### Stay tuned for part 3: Skopeo in Air-Gapped environments
-
-```markdown
----
-title: "Skopeo in CI/CD"
-description: "Using Docker Alternative Skopeo"
-pubDate: 2026-04-26
-updatedDate: 2026-04-26 # optional
-tags: ["docker", "kubernetes", "podman", "tech", "skopeo", "cicd", "pipelines", "devops", "cosign"]
-draft: false # drafts are visible in dev, dropped from builds
----
-```
